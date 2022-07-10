@@ -1,0 +1,36 @@
+ESPAÑOL
+Soy un desarrollador web Full-Stack. Tengo una gran pasión por la programación y la resolución de problemas mediante el pensamiento crítico y las matemáticas.
+
+Soy una persona que disfruta aprender constantemente, y lo mas emocionante es retarme cada día poniendo a prueba todo lo aprendido.
+Además de ser estudiante de Ingeniería Eléctrica y Electrónica combinando mi pasión por la tecnología y las ciencias formales.
+
+Persona soltera y sin carga familiar, solo un joven enamorado de la tecnología e interesado en trabajar en proyectos muy ambiciosos que me permitan seguir aprendiendo y requieran dar lo mejor de mi.
+
+INGLES
+I am a Full-Stack web developer. I have a great passion for programming and problem solving through critical thinking and mathematics.
+
+I am a person who enjoys learning constantly, and the most exciting thing is to challenge myself every day by testing everything I have learned.
+Besides being a student of Electrical and Electronic Engineering combining my passion for technology and formal sciences.
+
+Single person and without family burden, just a young man in love with technology and interested in working on very ambitious projects that allow me to continue learning and require me to give the best of me.
+
+Translated with www.DeepL.com/Translator (free version)
+
+
+SKYLLS: 
+Durante varios meses me dedique a aprender desarrollo web en el cual desarrollé aplicaciones web full-stack responsivos que tengan muchas funcionalidades y que sean amigables con el usuario..
+
+Procuro crear mis propios algoritmos y funciones evitando de esa forma evito usar demasiadas librerias.
+
+Abarcando el front-end con las tecnologías:  JS, HTML, CSS, React, Redux, Sass, BootStrap, Jquery, TypeScript
+Backend: Postgress, SQL lite, express, NodeJS
+Adicionales: NPM, gitFlow, Matlab
+
+Ingles:
+For several months I dedicated myself to learn web development in which I developed full-stack responsive web applications that have many functionalities and are user friendly.
+
+I try to create my own algorithms and functions avoiding to use too many libraries.
+
+Covering the front-end with the following technologies: JS, HTML, CSS, React, Redux, Sass, BootStrap, Jquery, TypeScript.
+Backend: Postgress, SQL lite, express, NodeJS.
+Additional: NPM, gitFlow, Matlab

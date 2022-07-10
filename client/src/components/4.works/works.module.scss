@@ -1,0 +1,22 @@
+.container {
+    margin-top: 15vh;
+    text-align: center;
+    height: 100%
+}
+#title{ 
+    font-size: 35px;
+    color: white;
+}
+
+#navBar {
+    height: 8vh;
+    background-color: aliceblue;
+}
+
+#cardDisplay {
+    margin-top: 2vh;
+  height: max-content;
+  min-height: 63vh;
+  border: 2px solid yellow;
+  background-color: black;
+}

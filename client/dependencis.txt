@@ -1,0 +1,12 @@
+Para mi portafolio estoy usando: 
+	- TSPARTICLES
+	- @emailjs/browser
+	- npm i @fortawesome/free-brands-svg-icons
+	- npm i @fortawesome/free-solid-svg-icons
+	- npm i @fortawesome/react-fontawesome
+	- npm i animate.css (para animar objetos loquito)
+	- npm i gsap-trial (para mas animaciones)
+	- npm i loaders.css
+	- npm i react-leaflet
+	- npm i react-loaders (esto es para integrar los loaders de css a react)
+	- npm i sass

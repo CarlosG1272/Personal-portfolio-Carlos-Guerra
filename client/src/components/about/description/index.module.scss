@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.container{
+    width: 70%;
+    margin: auto;
+    color: white;
+    height: 50vh;
+    text-align: center;
+}
+
+.question{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+.description{
+    font-size: 22px;
+    font-family: 'Kalam', cursive;
+}

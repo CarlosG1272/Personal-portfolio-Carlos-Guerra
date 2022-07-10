@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+#ParticlesBG{
+    position: absolute;
+    z-index: -1;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+#description {
+    width: 50%;
+    height: 50vh;   
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#title{
+    font-size: 3em;
+    font-family: 'Russo One', sans-serif;
+}
+#description{
+    font-size: 2em;
+}
