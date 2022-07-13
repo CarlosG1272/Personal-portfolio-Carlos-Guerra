@@ -2,11 +2,9 @@ import styles from "./index.module.scss";
 import Tags from "./tags";
 import React, { useState } from "react";
 import { useRef } from "react";
-// Le tengo que poner el mismo nombre del IMAGEN LOKO CRJO
-import pc from "../../../assets/works/pc.jpg"
 
 
-export default function Card({img1, img2, tecnologys}){
+export default function Card({proyect}){
     // Pasarle las direcciones de la imágenes y las tecnologías
     let img = useRef(null)
     let reference2 = useRef(null)
@@ -43,14 +41,13 @@ export default function Card({img1, img2, tecnologys}){
         
     }
 
-    const prueba = ["React", "JavaScript", "Redux", "SCSS"]
     return(
-    <div className={styles.container} onMouseLeave={()=>animation("remove")}>
+    <a href={proyect.deploy} target="_blank" rel="noreferrer" className={styles.container} onMouseLeave={()=>animation("remove")}>
         <div className={styles.containerIMG} onMouseEnter={animation} onMouseLeave={animation} >
                 <div id={styles.description}>
-                    <div id={styles.hidden} ref={reference5}>DOG APP</div>
+                    <div id={styles.hidden} ref={reference5}>{proyect.name}</div>
                     <div id={styles.hidden} ref={reference4}>
-                    {prueba.map(el=> {
+                    {proyect.technologies.map(el=> {
                         return <Tags name={el}/>
                     })}
                 </div>
@@ -58,12 +55,12 @@ export default function Card({img1, img2, tecnologys}){
 
             <div id={styles.hidden} ref={reference3}></div>
 
-            <img id={styles.img} src={pc}
+            <img id={styles.img} src={require(`../../../assets/works/${proyect.path}/1.PNG`)}
             alt="workIMG" ref={img} />
-            <img id={styles.hidden} src={require("../../../assets/works/S.jpg")} 
+            <img id={styles.hidden} className={styles.image2} src={require(`../../../assets/works/${proyect.path}/2.PNG`)} 
             alt="workIMG" ref={reference2}/> 
         </div>
-    </div>)
+    </a>)
 }
 
 

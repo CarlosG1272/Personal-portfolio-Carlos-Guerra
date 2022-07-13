@@ -4,14 +4,18 @@
 .containerIMG {
     height: 40vh;
     width: 70vh;  /*Ajustar para que tenga un tamaño fijo */
+    border-radius: 1rem;
+    outline: .2rem solid white;
     #img{
         height: 100%;
         width: 70vh;
         z-index: 1;
         margin: auto;
+        border-radius: 1rem;
     }
     #img2{
         display: none;
+        border-radius: 1rem;
     }
     #bgstyle{
         display: none;
@@ -64,6 +68,7 @@
         height: 40vh;
         z-index: 1;
         width: 70vh;
+        border-radius: 1rem;
         animation: upBackground 1s linear forwards;
 
     }
@@ -74,8 +79,7 @@
         display: flex;
         height: 100%;
         width: 70vh;
-
-        animation: upIMG .5s linear forwards;
+        animation: showIMG .5s linear forwards;
     }
 }
 
@@ -96,13 +100,13 @@
     }
 }
 
-@keyframes upIMG {
+@keyframes showIMG {
     0%{
-        transform: rotateY(-90deg);
+        transform: rotateY(270deg);
     }  50%{
-        transform: rotateY(-150deg);
+        transform: rotateY(330deg);
     } 100%{
-        transform: rotateY(-180deg);  
+        transform: rotateY(360deg); 
     }
 }
 
