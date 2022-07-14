@@ -23,7 +23,7 @@ export const full_stack = [
         technologies: ["HTML", "CSS", "Sass", "StyledComponents", "ReactJS", "Redux", "NodeJS", "Express", "FireBase", "MongoDB", "Cloudinary"],
         path: "E-Commerce",
         date: "06-2022",
-        deploy: "https://food-fast-client.vercel.app/",
+        deploy: "https://e-commerce-food-s-universe-front.vercel.app/",
         images: []
     }
 ]
