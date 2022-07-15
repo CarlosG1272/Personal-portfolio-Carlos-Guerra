@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap');
+
+.GlobalContainer {
+    margin-top: 6rem;
+}
+#phrase{
+    position: absolute;
+    right: 10rem;
+    top: 16rem;
+    font-size: 4rem;
+    color: yellow;
+    font-family: 'Edu SA Beginner', cursive;
+    -webkit-text-stroke: .1rem black;
+}
+.lines {
+    path{
+        fill: yellow;
+    }
+}
+#linea_1{
+    path{
+        animation: codeMove1 1s ease-out forwards;
+    }
+}
+
+#linea_2{
+    path{
+        animation: codeMove2 1s ease-out infinite;
+    }
+}
+
+#linea_3{
+    path{
+        animation: codeMove3 1s ease-out infinite;
+    }
+}
+
+#linea_4{
+    path{
+        animation: codeMove4 1s ease-out infinite;
+    }
+}
+
+#linea_5{
+    path{
+        animation: codeMove5 1s ease-out infinite;
+    }
+}
+
+#linea_6{
+    path{
+        animation: codeMove6 1s ease-out infinite;
+    }
+}
+
+#linea_7{
+    path{
+        animation: codeMove7 1s ease-out infinite;
+    }
+
+}     
+
+.lines{
+    animation: codeMoveX 1s linear infinite;
+}
+
+
+// cable animation
+#cable {
+    path {
+        animation: cable 2s linear infinite;
+    }
+}
+
+.head {
+    path {
+        animation: cable 2s linear infinite;
+    }
+}
+
+
+@keyframes cable {
+    0%{
+        fill: #3F3D56;
+    }
+    50%{
+        fill: yellow;
+    }
+    100%{
+        fill: #3F3D56;
+    }
+}
+
+// Movimiento de cabeza
+#headmain{
+    path{
+        animation: head 1s linear infinite;
+    }
+}
+@keyframes head {
+    0%{
+        transform: translateX(-5px);
+    }
+    25%{
+        transform: translateX(0px);
+    } 
+    50%{
+        transform: translateX(5px);
+    }  
+    75%{
+        transform: translateX(0px);
+    } 100%{
+        transform: translateX(-5px);
+    }
+}
+
+// Detalles de la otra cabeza
+.first_group {
+    path{
+        animation: first 2s linear infinite;
+    }
+}
+.second_group {
+    path{
+        animation: second 2s linear infinite;
+    }
+}
+
+@keyframes first {
+    0%{
+        fill: #6C63FF
+    }
+    50%{
+        fill: yellow
+    }
+    100%{
+        fill: #6C63FF
+    }
+}
+
+@keyframes second {
+    0%{
+        fill: yellow
+    }
+    50%{
+        fill: #6C63FF
+    }
+    100%{
+        fill: yellow
+    }
+}
+
+// Code coup color
+#codeSymbol{
+    path {
+        animation: code 2s linear infinite;
+    }
+}
+@keyframes code {
+    0%{
+        fill: aqua;
+    } 50%{
+        fill: #6C63FF;
+    } 100%{
+        fill: aqua;
+    }
+}
+
+
+@keyframes codeMove7 {
+    0% {
+        fill: transparent;
+    } 
+    20%{
+        fill: transparent;
+    }
+    80%{
+        fill: transparent;
+    }
+    90%{
+        fill: yellow;
+    }
+    100%{
+        fill: transparent;
+    }
+}
+@keyframes codeMove6 {
+    0% {
+        fill: transparent;
+    } 
+    20%{
+        fill: transparent;
+    }
+    80%{
+        fill: transparent;
+    }
+    85%{
+        fill: yellow;
+    }
+    100%{
+        fill: transparent;
+    }
+}
+@keyframes codeMove5 {
+    0% {
+        fill: transparent;
+    } 
+    20%{
+        fill: transparent;
+    }
+    80%{
+        fill: transparent;
+    }
+    85%{
+        fill: yellow;
+    }
+    100%{
+        fill: transparent;
+    }
+}
+
+@keyframes codeMove4 {
+    0% {
+        fill: transparent;
+    } 
+    20%{
+        fill: transparent;
+    }
+    80%{
+        fill: yellow;
+    }
+    90%{
+        fill: yellow;
+    }
+    100%{
+        fill: transparent;
+    }
+}
+
+@keyframes codeMove3 {
+    0% {
+        fill: transparent;
+    } 
+    20%{
+        fill: transparent;
+    }
+    80%{
+        fill: yellow;
+    }
+    90%{
+        fill: yellow;
+    }
+    100%{
+        fill: transparent;
+    }
+}
+
+@keyframes codeMove2 {
+    0% {
+        fill: transparent;
+    } 
+    20%{
+        fill: transparent;
+    }
+    80%{
+        fill: yellow;
+    }
+    90%{
+        fill: yellow;
+    }
+    100%{
+        fill: transparent;
+    }
+}
+
+@keyframes codeMoveX {
+    0% {
+        transform: translateY(-18vh);
+    } 100%{
+        transform: unset;
+    }
+}

@@ -13,17 +13,25 @@
 }
 #description {
     width: 50%;
-    height: 50vh;   
+    height: 100%;   
     display: flex;
     margin-left: 30px;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    div {
+        height: 30%;
+    }
 }
 
 #title{
+    text-align: center;
     font-size: 3em;
     font-family: 'Russo One', sans-serif;
 }
 #description{
+    text-align: center;
+    width: 90%;
     font-size: 2em;
 }

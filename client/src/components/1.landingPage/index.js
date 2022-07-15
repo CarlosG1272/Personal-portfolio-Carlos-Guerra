@@ -1,7 +1,7 @@
 import React from "react";
 import ParticlesBG from "../particlesBG/particle";
-import styles from "./landing.module.css";
-
+import styles from "./landing.module.scss";
+import Animation from "./LogoAnimation";
 
 export default function LandingPage(){
     
@@ -11,8 +11,16 @@ export default function LandingPage(){
         </section>
 
         <section id={styles.description}>
-            <h1 id={styles.title}>HI! I am Carlos Guerra</h1>
-            <p id={styles.description}>A full stack web developer</p>
+            <div>
+                 <h1 id={styles.title}>HI! I'm Carlos Guerra</h1>
+            </div>
+            <div>
+                <p id={styles.description}>A full stack web developer available to get started on ambitious new projects.</p>
+            </div>
+        </section>
+
+        <section>
+            <Animation/>
         </section>
     </div>)
 }

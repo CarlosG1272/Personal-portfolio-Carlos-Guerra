@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 import styles from './index.module.scss'
 
 export default function Skills() {
-  const front = ["HTML", "CSS", "JavaScript", "JQuery", "REACT", "REDUX", "TypeScript", "Sass", "Less", "BootStrap"]
-  const back = ["PostgreSQL", "SQLite", "Express", "NodeJS"]
+  const front = ["HTML", "CSS", "JavaScript", "JQuery", "REACT", "REDUX", "TypeScript", "Sass", "Less", "BootStrap", "Figma"]
+  const back = ["PostgreSQL", "SQLite", "Express", "NodeJS", "MongoDB"]
   const aditional = ["NPM", "GIT","MatLab"]
   return (
     <section className={styles.container}>
