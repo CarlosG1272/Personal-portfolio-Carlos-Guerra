@@ -16,6 +16,11 @@
         height: 100%;
         width: 100%;
         justify-content: space-around;
+        .active{
+            svg{
+                color: #FFFF00;
+            }
+        }
         a{
             font-size: 30px;
             color: #ff0000;
@@ -57,24 +62,19 @@
                 }
             }
 
-        a.about{
+        a#about{
             &::after {
                 content: 'ABOUT';
             }
         }
-        a.works{
+        a#works{
             &::after {
                 content: 'WORKS';
             }
         }
-        a.contact{
+        a#contact{
             &::after {
                 content: 'CONTACT';
-            }
-        }
-        a.active{
-            svg{
-                color: #FFFF00;
             }
         }
         }

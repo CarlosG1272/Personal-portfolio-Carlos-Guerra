@@ -15,10 +15,10 @@ export const full_stack = [
         technologies: ["HTML", "CSS", "Sass", "StyledComponents", "ReactJS", "Redux", "NodeJS", "Express", "MongoDB", "Cloudinary"], 
         path: "WheaterApp",
         date: "07-2022", 
-        deploy: "https://github.com/CarlosG1272/WheaterApp-FullStack",
+        deploy: "https://wheater-app-full-stack.vercel.app/",
         images: []
     }, {
-        name: "E-commerce - Food´s Universal", 
+        name: "E-commerce - Food´s Universe", 
         description: "E-commerce food retailer that included: product and category display, login, shopping cart, payment gateway, wish list, review posting, stock management, product and category creation forms, upload all kinds of images, purchase history (orders), user management, edit profile, nested filters, voice search, autocomplete, dark theme.",
         technologies: ["HTML", "CSS", "Sass", "StyledComponents", "ReactJS", "Redux", "NodeJS", "Express", "FireBase", "MongoDB", "Cloudinary"],
         path: "E-Commerce",

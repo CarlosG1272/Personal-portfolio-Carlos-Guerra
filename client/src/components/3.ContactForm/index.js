@@ -1,8 +1,9 @@
 import React, { useState } from "react"; 
-import { FormGlobalContainer, GlobalContainer, ImageContainer, ImageGlobalContainer, MyForm } from "./contactElements";
+import { FormGlobalContainer, ImageContainer, ImageGlobalContainer, MyForm } from "./contactElements";
 import "./contact.scss";
 import emailjs from "@emailjs/browser";
 import {FaLinkedin, FaGithub, FaFacebook} from "react-icons/fa"
+import {motion} from "framer-motion"; 
 
 export default function ContactForm() {
     const [form,setForm] = useState({name:"" , lastname:"" , email:"", message: ""}); 
@@ -33,7 +34,12 @@ export default function ContactForm() {
        
     }    
     return(
-    <GlobalContainer>
+    <motion.section 
+        className={"containerNEW"}
+        initial={{width: 0}}
+        animate={{width: "100%"}}
+        exit={{x: window.innerWidth, transition: {duration: 1 }}}
+    >
         <ImageGlobalContainer>
             <ImageContainer>
                 <img src={require("../../assets/email.png")} alt="email"/>
@@ -72,5 +78,5 @@ export default function ContactForm() {
             </MyForm>
         </FormGlobalContainer>
 
-    </GlobalContainer>)
+    </motion.section>)
 }

@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { full_stack } from "../../data/full-stack";
 import { back_end } from "../../data/backend";
 import { front_end } from "../../data/frontend";
+import { motion } from "framer-motion"
 
 export default function Works(){
     // Para saber que resultado mostrar, front - back o full
@@ -17,10 +18,15 @@ export default function Works(){
         else setData(full_stack)
     },[params.type])
     return(
-    <section className={styles.container}>
+    <motion.section 
+    className={styles.container}
+    initial={{width: 0}}
+    animate={{width: "100%"}}
+    exit={{x: window.innerWidth, transition: {duration:1}}}
+    >
         <h2 id={styles.title}>WEB DEVELOPER PORFOLIO</h2>
         <div id={styles.navBar}><Navigation type={params.type}/></div>
 
         <div id={styles.cardDisplay}><CardDisplay proyects={data}/></div>     
-    </section>)
+    </motion.section>)
 }

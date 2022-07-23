@@ -2,10 +2,17 @@ import React from "react";
 import ParticlesBG from "../particlesBG/particle";
 import styles from "./landing.module.scss";
 import Animation from "./LogoAnimation";
+import {motion} from "framer-motion"
 
 export default function LandingPage(){
     
-    return(<div className={styles.container}> 
+    return(
+    <motion.div 
+    className={styles.container}
+    initial={{width: 0}}
+    animate={{width: "100%"}}
+    exit={{x: window.innerWidth, transition: {duration: 1}}}
+    > 
         <section id={styles.ParticlesBG}>
             <ParticlesBG />
         </section>
@@ -22,5 +29,5 @@ export default function LandingPage(){
         <section>
             <Animation/>
         </section>
-    </div>)
+    </motion.div>)
 }

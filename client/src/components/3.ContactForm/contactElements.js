@@ -1,13 +1,5 @@
 import styled from "styled-components"; 
 
-export const GlobalContainer = styled.section`
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-`
-
 export const FormGlobalContainer = styled.section`
     width: 50%;
     height: 90%;
